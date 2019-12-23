@@ -56,7 +56,7 @@
   <div class="row">
     <div class="col-sm-6 text-center">
       <h2>About</h2><br>
-      <h4>RSCleaningServices is a family owned business.</h4>
+      <h5>RSCleaningServices is a family owned business.</h5>
       <p>We are all about green cleaning, and offering the reliable services to our fellows,
         Nova Scotains. RSCleaningServices has team of professionals who knows what they are doing, 
         Our highly trained proffesionals have many years of cleaning experince on the field and will 

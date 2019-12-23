@@ -2,11 +2,11 @@
 <header>
     <!-- STYLE -->
     <style>
-        @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+        @import url('https://fonts.googleapis.com/css?family=Rajdhani&display=swap');
         @import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
         .navbar {
             margin-bottom: 0;
-            background-color: #0597F2;
+            background-color: #4ddbff;
             z-index: 9999;
             border: 0;
             font-size: 14px !important;
@@ -17,15 +17,29 @@
         }
         .navbar li a, .navbar {
             color: #fff !important;
+            font-weight: bold !important;
         }
         .navbar-nav li a:hover, .navbar-nav li.active a {
-            color: #f4511e !important;
+            color: #0066ff !important;
             background-color: #fff !important;
         }
         .navbar-default .navbar-toggle {
             border-color: transparent;
             color: #fff !important;
         }
+        .navbar-brand {
+            font-family: 'Rajdhani', sans-serif;
+            font-size: 1.8em;
+        }
+
+        .navbar-brand #RSCleaning {
+            color: #0066ff;
+        }
+
+        .navbar-brand #Service {
+            color: #fff;
+        }
+
     </style>
     <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
@@ -35,7 +49,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>                        
         </button>
-        <a class="navbar-brand" href="/">RSCLEANINGSERVICES</a>
+        <a class="navbar-brand" href="/"><span id="RSCleaning">RSCLEANING</span><span id="Service">SERVICES</span></a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">

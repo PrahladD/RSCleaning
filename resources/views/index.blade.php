@@ -12,64 +12,26 @@
 </head>
 <style>
     html { overflow-y: scroll; }
-
+    body { 
+        background-color: #f6f6f6;
+        color:  #004080;
+    }
     .jumbotron {
-        background-color: #0597F2;
-        color: #fff;
+        background-color: #fff;
+        color: #0066ff;
         padding: 80px 25px;
         font-family: 'Anton Regular', Montserrat, sans-serif;
-  }
-
-  @keyframes slide {
-    0% {
-      opacity: 0;
-      transform: translateY(70%);
-    } 
-    100% {
-      opacity: 1;
-      transform: translateY(0%);
     }
-  }
-  @-webkit-keyframes slide {
-    0% {
-      opacity: 0;
-      -webkit-transform: translateY(70%);
-    } 
-    100% {
-      opacity: 1;
-      -webkit-transform: translateY(0%);
-    }
-  }
-  @media screen and (max-width: 768px) {
-    .col-sm-4 {
-      text-align: center;
-      margin: 25px 0;
-    }
-    .btn-lg {
-      width: 100%;
-      margin-bottom: 35px;
-    }
-  }
-  @media screen and (max-width: 480px) {
-    .logo {
-      font-size: 150px;
-    }
-  }
-
 </style>
 <body>
     <div class="jumbotron text-center">
     @if(Request::is('home'))
         <h1>Keep it Sparkling !</h1>
-        <p>You are one call away from keeping it clean and sparkling</p>
+        <p>You are one call away from keeping it clean and sparkling.</p>
     @elseif (Request::is('services'))
-        <h1>Services</h1>
+        <h1>Our Services</h1>
+        <p> Below are the list of services we offer</p>
     @endif
-
-    <form>
-        <div class="input-group">
-        </div>
-    </form>
     </div>
 @include('nav')
 
